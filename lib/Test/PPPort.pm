@@ -50,10 +50,12 @@ Test::PPPort - test for ppport.h warnings
 
   # in a xt/ppport.t
 
+  use strict;
+  use warnings;
   use Test::More;
   eval "use Test::PPPort";
   plan skip_all => "Test::PPPort required for testing ppport.h" if $@;
-  ppport_ok;
+  ppport_ok();
 
 =head1 DESCRIPTION
 
