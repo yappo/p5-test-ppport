@@ -59,7 +59,8 @@ Test::PPPort - test for ppport.h warnings
 
 =head1 DESCRIPTION
 
-Test::PPPort is check to foo.xs files test by ppport.h.
+Test::PPPort is check to foo.xs files test by I<ppport.h>.
+The check of XS file by I<ppport.h> can be easily taken in as a test case.
 
 =head1 AUTHOR
 
